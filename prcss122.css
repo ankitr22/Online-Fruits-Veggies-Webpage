@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(252, 248, 234);
+} 
+.container{
+    display: flex;
+    padding: 20px;
+}    
+.navigate1{
+    flex-basis: 50%;
+}  
+.navigate2{
+    flex-basis:50%;
+    padding-top: 10px;
+}
+nav{
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.navigate2 a{
+    text-decoration: none;
+    color: rgb(236, 26, 85);
+}
+p{
+    color: rgb(221, 20, 87);
+}
+.row{
+    display: flex;
+    padding: 20px;
+}
+.col-2{
+    flex-basis:50%;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 p{
+    padding:(20px,0px);
+}
+.col-2 h1{
+    color:rgb(121, 124, 124);
+    font-size: 45px;
+    line-height: 40px;
+    padding-top: 110px;
+    padding-bottom: 25px;
+}
+.btn{
+    display: inline-block;
+    background: rgb(46, 180, 32);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.7s;
+}
+.btn:hover{
+    background: #e1c408;
+}
+.try{
+    display: flex;
+}
+.t1,.t2{
+    flex-basis: 50%;
+}
+.box1,.box2{
+    height: 400px;
+    width: 300px;
+    background: red;
+    padding: 20px;
+    margin: 30px 15px;
+    background: rgb(227, 217, 217);
+}
