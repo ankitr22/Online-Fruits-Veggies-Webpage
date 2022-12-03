@@ -68,17 +68,3 @@ p{
 .btn:hover{
     background: #e1c408;
 }
-.try{
-    display: flex;
-}
-.t1,.t2{
-    flex-basis: 50%;
-}
-.box1,.box2{
-    height: 400px;
-    width: 300px;
-    background: red;
-    padding: 20px;
-    margin: 30px 15px;
-    background: rgb(227, 217, 217);
-}
